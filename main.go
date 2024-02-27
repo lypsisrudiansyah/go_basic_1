@@ -11,4 +11,5 @@ func main() {
 	myModule.TheArray1()
 	myModule.TheArray2()
 	myModule.ShowStudentStruct()
+	myModule.ShowStudentStructWithNamedArgument()
 }
