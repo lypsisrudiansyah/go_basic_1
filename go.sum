@@ -1,9 +1,0 @@
-📝 docs(README.md): update "Running the Project" section with instructions for standard run and hot reload using Air
-
-🔨 refactor(README.md): update code snippet in "Running the Project" section to include instructions for hot reload using Air
-
-🔨 refactor(main.go): add call to ShowStudentStructWithNamedArgument function in main function
-
-🔨 refactor(struct.go): update ShowStudentStruct function to use "Computer Science" as the majoring field value instead of "Informatics"
-
-🔨 refactor(struct.go): add ShowStudentStructWithNamedArgument function to demonstrate the use of named arguments when creating a Student struct instance
