@@ -6,4 +6,6 @@ func main() {
 	myModule.PrintUserDetails()
 	myModule.PrintArithmetic()
 	myModule.CheckUserAge()
+	myModule.CheckStudentAge()
+	myModule.CheckWeekend()
 }

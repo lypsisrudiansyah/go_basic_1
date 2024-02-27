@@ -24,3 +24,15 @@ func CheckStudentAge() {
 		fmt.Println("Anda bukan mahasiswa dewasa.")
 	}
 }
+
+// CheckWeekend
+func CheckWeekend() {
+	isWeekend := true
+	isHoliday := false
+
+	if isWeekend || isHoliday {
+		fmt.Println("Hari ini adalah hari libur atau akhir pekan.")
+	} else {
+		fmt.Println("Hari ini adalah hari kerja biasa.")
+	}
+}
