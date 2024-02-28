@@ -12,7 +12,8 @@ The project consists of two main files:
 - `myModule/logic.go`: This file is used for practicing logic statements. It contains the `CheckUserAge`, `CheckStudentAge`, and `CheckWeekend` functions which check the age of a user, whether it's a weekend or a holiday, and print appropriate messages.
 - `myModule/struct.go`: This file demonstrates the use of structs in Go. It defines a `Student` struct and includes the `ShowStudentStruct` and `ShowStudentStructWithNamedArgument` functions which create instances of the `Student` struct and print their details.
 - `myModule/array.go`: This file demonstrates how to declare and manipulate a slice (dynamic array) in Go.
-
+- `myModule/function.go`: This file demonstrates the use of functions in Go. It includes the `addition` function which performs addition of two integers, and two other functions `DemoTheFunction` and `InputAdditionForOutsideFile` which demonstrate the usage of the `addition` function.
+- `myModule/looping.go`: This file demonstrates the use of loops in Go. It includes the `DoTheLooping` function which performs simple looping, looping with an array, and a loop that behaves like a while loop.
 
 ## Running the Project
 
