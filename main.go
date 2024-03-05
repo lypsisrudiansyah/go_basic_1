@@ -12,7 +12,8 @@ func main() {
 	// myModule.TheArray2()
 	// myModule.ShowStudentStruct()
 	// myModule.ShowStudentStructWithNamedArgument()
-	myModule.DoTheLooping()
-	myModule.DemoTheFunction()
-	myModule.InputAdditionForOutsideFile(19, 2)
+	// myModule.DoTheLooping()
+	// myModule.DemoTheFunction()
+	// myModule.InputAdditionForOutsideFile(19, 2)
+	myModule.PrintPersonDetails()
 }

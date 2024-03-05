@@ -12,7 +12,13 @@ type Employee struct {
 	Role   string
 }
 
-func (p *Person) PrintPersonDetails() {
-	fmt.Println("Name :", p.Name)
-	fmt.Println("Age :", p.Age)
+func PrintPersonDetails() {
+	employeeData := Employee{
+		Person: Person{
+			Name: "Rudiansyah", Age: 22,
+		},
+		Role: "Software Engineer",
+	}
+
+	fmt.Printf("Name : %s, Age : %d, Role : %s \n", employeeData.Name, employeeData.Age, employeeData.Role)
 }
