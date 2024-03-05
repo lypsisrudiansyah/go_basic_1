@@ -14,6 +14,7 @@ The project consists of two main files:
 - `myModule/array.go`: This file demonstrates how to declare and manipulate a slice (dynamic array) in Go.
 - `myModule/function.go`: This file demonstrates the use of functions in Go. It includes the `addition` function which performs addition of two integers, and two other functions `DemoTheFunction` and `InputAdditionForOutsideFile` which demonstrate the usage of the `addition` function.
 - `myModule/looping.go`: This file demonstrates the use of loops in Go. It includes the `DoTheLooping` function which performs simple looping, looping with an array, and a loop that behaves like a while loop.
+- `myModule/inheritence_embed.go`: This file demonstrates how Go uses composition and embedding instead of traditional inheritance found in Object-Oriented Programming (OOP). It defines a `Person` struct and an `Employee` struct that embeds the `Person` struct. The `PrintPersonDetails` method is attached to the `Person` struct, showing how methods can be shared across embedded structs.
 
 ## Running the Project
 
