@@ -27,9 +27,22 @@ func (l Lion) Eat() string {
 }
 
 func (c Cow) Speak() string {
-	return "Moo"
+	return fmt.Sprintf("%s sounds Moo", c.Name)
 }
 
 func (c Cow) Eat() string {
-	return "Grass"
+	return fmt.Sprintf("%s eats Grass", c.Name)
+}
+
+func RunTheAbsctractionExample() {
+	myLion := Lion{Name: "Simba"}
+	myCow := Cow{Name: "Lolo"}
+
+	animals := []Animal{myLion, myCow}
+
+	for index, animal := range animals {
+		fmt.Println(index)
+		fmt.Println(animal.Speak())
+		fmt.Println(animal.Eat())
+	}
 }

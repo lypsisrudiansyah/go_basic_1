@@ -16,4 +16,5 @@ func main() {
 	// myModule.DemoTheFunction()
 	// myModule.InputAdditionForOutsideFile(19, 2)
 	myModule.PrintPersonDetails()
+	myModule.RunTheAbsctractionExample()
 }
